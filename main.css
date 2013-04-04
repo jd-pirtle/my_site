@@ -1,0 +1,708 @@
+
+body {
+	background: #000;	
+	margin: 0px auto;
+	padding: 0px;
+	font: "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+}
+
+#dwrap div {
+	width: 200px;
+	margin: auto;
+	padding: auto;
+	height: 200px;
+	float: left;
+	right: auto;
+	left: 37px;
+}
+
+.section {
+    	margin-left: auto;
+    	margin-right: auto;
+    	height:1500px;
+    	width:100%;
+}
+
+.projects {
+	background:#000 url(images/bg_gray1.png);
+	position: relative;
+	padding: 150px 0px;
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.projects h1 {
+	background-color: rgba(0, 0, 0, .75);
+	font-family : "Open Sans",Helvetica,Geneva,sans-serif;
+	font-size : 30px;
+	line-height: 120%;
+	text-shadow:0 1px 2px rgba(0, 0, 0, 0.8);
+	color: #999;
+	text-shadow: 0px 2px 3px #000;
+	padding: 5px 50px;
+}
+
+/* nav and logo --------------------------------------------------------*/
+
+#navRight {
+	background: #000000;
+	position: fixed;
+	padding: 10px 18.5px 10px 10px;
+	margin: 10px 10px 0px 0px;
+	height: 200px;
+	width: 	50px;
+	right: 0px;	
+	float: right;
+	z-index: 5;
+	border-color: #666;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#navRight ul {
+	list-style: none;
+	padding: 10px;
+	margin: auto;
+}
+
+#navRight ul li {
+	list-style: none;
+	padding: 3px 0px;
+	display: inline-block;
+}
+
+#navRight a {
+	position: relative;
+}
+
+#logoLeft {
+	background: #000000;
+	position: fixed;
+	padding: 0px 0px 0px 20px;
+	margin: 10px 0px 0px 10px;
+	height: 100px;
+	width: 85px;
+	top: 0px;
+	left: 0px;
+	float:left;
+	z-index: 5;
+	border-color: #666;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#logoleft a {
+	position: relative;
+}
+
+#logoRight {
+	background: #000000;
+	position: fixed;
+	padding: 0px 0px 0px 20px;
+	margin: 10px 10px 0px 0px;
+	height: 100px;
+	width: 85px;
+	top: 0px;
+	right: 0px;
+	float: right;
+	z-index: 5;
+	border-color: #666;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#logoRight a {
+	position: relative;
+}
+
+
+/* ----------  top section  ----------------------------*/
+
+.top {
+	background:url(images/curves1.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	padding: 75px 10px;
+	position: relative;
+	top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	overflow:auto;
+   	clear:both; 
+}
+
+.topInt {
+	background:url(images/tri.png);
+	background-repeat: no-repeat;
+	position: static;
+	width: 790px;
+	height: 629px;
+	padding: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 800px;
+	margin-bottom: 0px;
+	top: 50px;
+}
+
+.topTextBox {
+	display: none;
+	position: absolute;
+	width: 730px;
+	height: 230px;
+	padding: 25px 10px 10px 50px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 99;
+	top: 250px;
+	font-size : 28px;
+	font-family: Georgia, Serif;
+	line-height: 130%;
+	color: #111;
+	text-shadow: 0px 1px 2px #4d4d4d; 
+	word-spacing: 1px;
+   	text-align:left;
+   	text-decoration: none;
+}
+
+
+.topTextBox a {
+	position: relative;
+}
+
+.topTextBox span {
+	font-size: 45px;
+	line-height: 130%;
+	font-family : "Open Sans Bold",Helvetica,Geneva,sans-serif;
+   	text-decoration: none;
+}
+
+
+
+.topTextBox a:link {
+	position: relative;
+	color: #4863A0;
+	font-size : 28px;
+	text-shadow: none; 
+	text-decoration: none;
+}
+
+.topTextBox a:visited {
+	color: #4863A0;
+	background-color: #806E43;
+	text-decoration: none;
+}
+
+.topTextBox a:hover {
+	color: #1A1A1A;
+	text-decoration: none;
+	background-color: #4863A0;
+	text-decoration: none;
+} 
+
+.topTextBox a:active {
+	color: #4863A0;
+	background-color: #806E43;
+	text-decoration: none;
+}
+
+
+/* -------------------------------- small proj stuff----------------------------*/
+
+.smallproj {
+	font-family : "Open Sans Bold",Helvetica,Geneva,sans-serif;
+    	padding: 10px;
+	position: relative;
+    	width: 300px;
+   	height: 300px;
+ }
+ 	
+
+.smallproj img  {
+ 	position: absolute;	
+	float:center;
+	z-index: 0;
+}
+
+.smallproj a  {
+	display: none;
+	position: absolute;
+	float: center;
+	width: 180px;
+	height: 0px;
+	margin: auto;
+	padding: 100px 10px;
+	color: #FFF;
+	font-size : 14px;
+	letter-spacing: 1px;
+	text-shadow: #777 0px 1px 0, #000 0 -1px 0;
+	z-index: 99;
+	
+}
+
+.smallproj a:visited, a:link, a:active {
+	position: absolute;
+	text-decoration: none;
+	
+}
+
+.smallproj a:hover {
+	background-color: rgba(25, 25, 25, 0.85);
+	position: absolute;
+	text-decoration: none;
+}
+
+.smallproj span {
+	font-size: 12px;
+	letter-spacing: 1px;	
+	font-family: Georgia, Serif;
+}
+
+.smallproj h3  {
+	color: #000000;
+	position: absolute;
+	font-size : 12px;
+	z-index: 99;
+}
+
+
+/*---------------------------------  bio section stuff  -----------------------------------*/
+
+.bio {
+	background:#000 url(images/bg_gray3.png );
+	padding: auto auto auto 100px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	word-spacing: 1px;
+	overflow:auto;
+   	clear:both; 
+}
+
+
+#bioBox {
+	font-family : "Open Sans",Helvetica,Geneva,sans-serif;
+	line-height: 110%;
+	padding: 5px 40px 10px 40px;
+	position: relative;
+	color: #888;
+	width: 1100px;
+	height: auto;
+	top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	word-spacing: 1px;
+	overflow:hidden;
+   	clear:both; 
+}
+
+#bioBox a {
+	position: relative;
+}
+
+#bioBox a:link {
+	color: #4863A0;
+	text-decoration: none;
+}
+
+#bioBox a:visited {
+	color: #4863A0;
+	background-color: #806E43;
+}
+
+#bioBox a:hover {
+	color: #222;
+	text-decoration: none;
+	background-color: #4863A0;
+} 
+
+#bioBox a:active {
+	color: #4863A0;
+	background-color: #222;
+}
+
+#bioBox p {
+	color: #999;
+	font-size: 16px;
+	font-family: Georgia, Serif;
+	text-decoration: none;
+	line-height:120%;
+}
+
+#bioBox  h1 {
+	color: #999;
+	font-family : "Open Sans Bold",Helvetica,Geneva,sans-serif;
+	font-size: 48px;
+	letter-spacing: 1px;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	line-height:180%;
+	text-shadow:0 1px 2px rgba(10,10,10,0.8);
+}
+
+#bioBox  h2 {
+	color: #999;
+	font-size : 24px;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	line-height:110%
+}
+
+#bioBox  h3 {
+	color: #777;
+	font-size : 12px;
+	margin: 0px;
+	line-height:130%
+}
+
+#bioBox span {
+	color: #999;
+	font-family: Georgia, Serif;
+	font-size : 18px;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	line-height:120%
+}
+
+#leftCol {
+	background-color: rgba(0, 0, 0, .75);
+	width: 400px;
+	height: 800px;
+	float: left;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	margin-top: 15px;
+	margin-right: auto;
+    	margin-bottom: -40px;
+	margin-left: auto;
+}
+
+#rightCol {
+	background-color: rgba(0, 0, 0, .75);
+	width: 640px;
+	height: 800px;
+	float: right;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	margin-top: 15px;
+	margin-right: auto;
+    	margin-bottom: -40px;
+	margin-left: auto;
+}
+
+#rightCol a {
+	position: relative;
+}
+
+
+img.center {   
+	display: block;   
+	margin-left: auto;   
+	margin-right: auto;
+ }
+
+/*------------------------ project page stuff ------------------------------*/
+	
+.bigProj {
+	background: #FFF;
+	margin-left: auto;   
+	margin-right: auto;
+	color: #888;
+	font-family : "Open Sans",Helvetica,Geneva,sans-serif;
+	line-height: 110%;
+	word-spacing: 1px;
+}
+
+.bigProjBox {
+	position: relative;
+	width: 1200px;
+	height: auto;
+	top: 10px;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.bigTitle {
+	width: 100%;
+	height: 50px;
+	padding: 10px 10px 0px 10px;
+	margin: auto auto 10px auto;
+}
+
+.bigRCol {
+	width: 55%;
+	height: auto;
+	float: right;
+	padding: 0px 10px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.bigLCol {
+	width: 40%;
+	height: auto;
+	float: left;
+	padding: 0px 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.bigProjBox a {
+	position: relative;
+}
+
+.bigProj a:link {
+	color: #4863A0;
+	text-decoration: none;
+}
+
+.bigProj a:visited {
+	color: #4863A0;
+	background-color: #806E43;
+}
+
+.bigProj a:hover {
+	color: #222;
+	text-decoration: none;
+	background-color: #4863A0;
+} 
+
+.bigProj a:active {
+	color: #4863A0;
+	background-color: #222;
+}
+
+.bigProj p {
+	color: #555555;
+	font-size: 14px;
+	text-decoration: none;
+	line-height:120%;
+}
+
+.bigProj  h1 {
+	color: #363636;
+	font-family : "Open Sans Bold",Helvetica,Geneva,sans-serif;
+	font-size: 32px;
+	margin: 0px;
+	text-decoration: none;
+	line-height:100%;
+}
+
+.bigProj  h2 {
+	font-family: Georgia, Serif;
+	color: #555555;
+	font-size : 22px;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	line-height:110%
+}
+
+.bigProj  h3 {
+	font-family : "Open Sans",Helvetica,Geneva,sans-serif;
+	color: #777;
+	font-size : 14px;
+	margin: 0px;
+	line-height:110%
+}
+
+.bigProj  h4 {
+	font-family: Georgia, Serif;
+	color: #777;
+	font-size : 14px;
+	margin: 0px;
+	line-height:130%
+}
+
+.bigProj span {
+	color: #999;
+	font-size : 16px;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	line-height:120%
+}
+
+img.block {   
+	display: inline-block;  
+	padding: 10px; 
+	margin-left: auto;   
+	margin-right: auto;
+	float: center;
+ }
+ 
+ 
+/* project nav -----------------------------------------------*/
+ 
+#navBox {
+    padding: 0px;
+    width: 500px;
+    height: 18px;
+    position: relative;
+    margin-bottom: 30px;
+    margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+}
+
+.nav a {
+	position: relative;
+    display: block;
+    background:transparent url('images/nav_empty.png') center top no-repeat;
+    background-size: 18px;
+    margin-right: 2px;
+    width: 18px;
+    height: 18px;
+}
+
+.nav a:hover {
+    background-color: #FFF;
+    background-image: url('images/nav_hover.png');
+    background-size: 18px;
+    background-repeat:no-repeat;
+}
+
+#navBox a.selected {
+    background-color: #FFF;
+    background-image: url('images/nav_full.png');
+    background-size: 18px;
+    background-repeat:no-repeat;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+    float: left;
+}
+
+
+/*  spacers-------------------------------------------- */
+
+
+#spacer {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	width: 0px;
+}
+
+#medspacer {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	width: 0px;
+}
+
+#bigspacer {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 180px;
+	width: 0px;
+}
+
+
+
+/* footer -----------------------------------------------*/
+
+
+
+#footer {
+	background: #222222;
+	height: 25px;
+	width: 100%;
+	position: static;
+	top: auto;
+	padding: 10px;
+	color: #ffffff;
+	font-family : "Open Sans",Helvetica,Geneva,sans-serif;
+	font-size: 10px;
+	float: bottom;
+}
+
+#footer a {
+	position: relative;
+}
+
+
+
+#ie {
+	background: #000000;
+	font-family : "times new roman";
+	font-size : 30px;
+	line-height: 110%;
+	padding: 10px 40px 50px 40px;
+	position: static;
+	color: #FFFFFF;
+	width: 600px;
+	height: auto;
+	top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	z-index: 0;
+}
+
+	
+/*------------ fonts ----------------------------*/
+
+@font-face {
+  font-family: 'Open Sans Italic';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Open Sans Italic'), local('Open-Sans-Italic'),
+  url('OpenSans-Italic.ttf') format('truetype');
+}
+ 
+@font-face {
+  font-family: 'Open Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans Bold'), local('Open-Sans-Bold'),
+  url('OpenSans-Bold.ttf') format('truetype');
+}
+ 
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans Regular'), local('Open-Sans-Regular'),
+  url('OpenSans-Regular.ttf') format('truetype');
+}	
+
+
+@font-face {
+  font-family: 'GandhiSerif';
+  font-style: italic;
+  font-weight: normal;
+  src: local('GandhiSerif-Italic'), local('GandhiSerif-Italic'),
+  url('Open Sans -Italic.ttf') format('truetype');
+}
+ 
+
+
